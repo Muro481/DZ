@@ -1,0 +1,17 @@
+proqnoz = ['в', '5', 'часов', '17', 'минут', 'температура', 'воздуха', 'была', '+5', 'градусов']
+
+proqnoz.insert(1, '"' )
+proqnoz.insert(3, '"' )
+proqnoz.insert(5, '"' )
+proqnoz.insert(7, '"' )
+proqnoz.insert(12, '"' )
+proqnoz.insert(14, '"' )
+
+proqnoz.remove("5")
+proqnoz.insert(2, "05")
+
+proqnoz.remove("+5")
+proqnoz.insert(13, "+05")
+
+proqnoz =" ".join(proqnoz)
+print(proqnoz)
